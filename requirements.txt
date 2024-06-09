@@ -1,0 +1,6 @@
+streamlit
+
+
+#local apckages
+
+-e .
