@@ -31,8 +31,8 @@ def recommend(place):
     return recommended_places
 
 # Load data
-places = pickle.load(open('artifacts\.ipynb_checkpoints\place_list.pkl', 'rb'))
-similarity = pickle.load(open('artifacts\.ipynb_checkpoints\similarity.pkl', 'rb'))
+places = pickle.load(open('artifacts\\.ipynb_checkpoints\\place_list.pkl', 'rb'))
+similarity = pickle.load(open('artifacts\\.ipynb_checkpoints\\similarity.pkl', 'rb'))
 
 # Streamlit UI
 st.title("Tour Recommendation System Using Machine Learning")
